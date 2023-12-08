@@ -28,7 +28,10 @@ section#telefone {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Esse transform é uma propriedade que eu quero entender mais */
 
   height: 627px;
   width: 311px;
@@ -40,7 +43,7 @@ iframe#tela {
   position: relative;
   top: 80px;
   left: 22px;
-  width: 269px;
+  width: 266px;
   height: 471px;
 }
 
@@ -58,7 +61,10 @@ section#redes-sociais img {
 
 section#redes-sociais img:hover {
   border: 2px solid rgba(255, 255, 255, 0.6);
-  transform: translate(-3px, -3px);
+  transform: translate(
+    -3px,
+    -3px
+  ); /* Esse transform é uma propriedade que eu quero entender mais */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.625);
   transition: transform 0.3s, border 1s;
 }
